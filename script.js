@@ -33,6 +33,7 @@ function colorPixel(event) {
   socket.emit('colorPixel', pixelData);
 }
 
+
 function getSavedPixels() {
     console.log('test');
     fetch('http://localhost:3000/getPixels')
